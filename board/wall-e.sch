@@ -31,9 +31,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MCU_Parallax
-LIBS:iso7742
+LIBS:lm2576
 LIBS:iso1541
+LIBS:iso7742
+LIBS:MCU_Parallax
 LIBS:wall-e-cache
 EELAYER 25 0
 EELAYER END
@@ -2241,6 +2242,8 @@ Wire Wire Line
 	8950 6150 9000 6150
 Wire Wire Line
 	8950 6250 9000 6250
-Text Notes 7800 5750 0    60   ~ 0
+Text Notes 7750 5750 0    60   ~ 0
 Battery sensors\nDifferent addresses!
+Wire Wire Line
+	7750 4450 7750 4300
 $EndSCHEMATC

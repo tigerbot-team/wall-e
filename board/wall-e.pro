@@ -1,4 +1,4 @@
-update=Sat 04 Aug 2018 11:01:44 BST
+update=Sun 07 Oct 2018 16:30:47 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/shaun/kicad/libraries
+LibDir=libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,6 +61,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/shaun/kicad/libraries/MCU_Parallax
-LibName34=/home/shaun/kicad/libraries/iso7742
-LibName35=iso1541
+LibName33=libs/lm2576
+LibName34=libs/iso1541
+LibName35=libs/iso7742
+LibName36=libs/MCU_Parallax

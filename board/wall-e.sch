@@ -1362,8 +1362,6 @@ Wire Wire Line
 	4800 4900 4550 4900
 Connection ~ 4550 4900
 Wire Wire Line
-	4800 5250 4800 5400
-Wire Wire Line
 	4800 5400 4550 5400
 Connection ~ 4550 5400
 Wire Wire Line
@@ -2246,4 +2244,6 @@ Text Notes 7750 5750 0    60   ~ 0
 Battery sensors\nDifferent addresses!
 Wire Wire Line
 	7750 4450 7750 4300
+Wire Wire Line
+	4800 5400 4800 5300
 $EndSCHEMATC

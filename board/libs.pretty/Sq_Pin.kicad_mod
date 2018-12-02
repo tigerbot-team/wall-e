@@ -1,0 +1,16 @@
+(module Sq_Pin (layer F.Cu) (tedit 5C0425BD)
+  (descr "Single square pin")
+  (tags "Square pin")
+  (fp_text reference "" (at 0 -5.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Sq_Pin (at 0 -3.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 2.2352 2.2352) (drill 1.016) (layers *.Cu *.Mask))
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x01.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

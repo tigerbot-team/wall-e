@@ -1245,19 +1245,13 @@ F 3 "" H 6150 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 6150 6600 0    60   Input ~ 0
-PI_SPI1_SCLK
+PI_SPI_SCLK
 Text GLabel 6150 6700 0    60   Input ~ 0
-PI_SPI1_MOSI
+PI_SPI_MOSI
 Text GLabel 6150 6900 0    60   Input ~ 0
 PI_SPI_CE1
 Text GLabel 6150 6800 0    60   Input ~ 0
-PI_SPI1_MISO
-Text GLabel 1150 1850 0    60   Input ~ 0
-PI_SPI1_MISO
-Text GLabel 1150 1950 0    60   Output ~ 0
-PI_SPI1_MOSI
-Text GLabel 1150 2050 0    60   Output ~ 0
-PI_SPI1_SCLK
+PI_SPI_MISO
 $Comp
 L GNDA #PWR043
 U 1 1 5B716B85
@@ -1493,12 +1487,6 @@ Wire Wire Line
 	7000 2400 6900 2400
 Wire Wire Line
 	7000 2300 6900 2300
-Wire Wire Line
-	1150 1850 1250 1850
-Wire Wire Line
-	1150 1950 1250 1950
-Wire Wire Line
-	1150 2050 1250 2050
 Wire Wire Line
 	6150 6700 6250 6700
 Wire Wire Line
@@ -2317,8 +2305,6 @@ NoConn ~ 1250 2250
 NoConn ~ 1250 2150
 NoConn ~ 1250 1750
 NoConn ~ 1250 1550
-Text GLabel 4850 7250 2    60   Input ~ 0
-PI_SPI_MISO
 NoConn ~ 4850 7250
 NoConn ~ 6900 2200
 NoConn ~ 7000 2100
@@ -2528,4 +2514,7 @@ F 3 "" H 5600 7250 50  0001 C CNN
 	1    5600 7250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1250 2050
+NoConn ~ 1250 1950
+NoConn ~ 1250 1850
 $EndSCHEMATC
